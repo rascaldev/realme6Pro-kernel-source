@@ -22,7 +22,7 @@ jobs:
       with:
         arch: arm64
         compiler: gcc/12
-        defconfig: atoll_defconfig
+        defconfig: cuttlefish_defconfig
         image: Image.gz-dtb
         modules: true
 
