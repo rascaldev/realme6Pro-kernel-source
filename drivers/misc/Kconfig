@@ -602,7 +602,7 @@ source "drivers/misc/cxl/Kconfig"
 source "drivers/misc/fpr_FingerprintCard/Kconfig"
 #ifdef VENDOR_EDIT
 #//bajrang.patidar@BSP.kernel.Basic, 2019/09/03, add oppo motor for camera
-source "drivers/misc/oppo_motor/Kconfig"
+#source "drivers/misc/oppo_motor/Kconfig"
 #endif /*VENDOR_EDIT*/
 endmenu
 
